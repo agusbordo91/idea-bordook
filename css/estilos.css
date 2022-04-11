@@ -149,12 +149,3 @@
     margin: 10px;
 }
 
-.transformacion {
-    transform: translate(30px);
-    height: 300px;
-    transition: height 1s;
-}
-
-.transformacion:hover {
-    height: 400px;
-}
