@@ -5,110 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Géminis - Tienda de Libros</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
     <link rel="shotcut icon" href="../imagenes/logos/logo.png">
 </head>
 <body>
     
-    <header> <a href="../index.html" class="link">
-        <img src="../imagenes/logos/logo_geminis.png" alt="Logo web" class="header__logo">
-            <div class="header__titulo">
-                <h1>Géminis <div>Tienda de Libros</div> </h1>
-            </div>
-    </header>
+<header class="navbar navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes/logos/logo_geminis.png" alt="Géminis Tienda de Libros" class="d-inline-block align-text-buttom ">
+        Géminis Tienda de Libros
+        </a>
+    </div>
+</header>
 
-<section>
-    <nav id="menu">
-        <div>
-            <ul class="nav__menu">
-                <li>
-                <a href="../paginas/categorias.html">Categorías</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/novedades.html">Novedades</a>
-                </li>
-                    
-                <li>
-                <a href="../paginas/blog.html">Blog</a>
-                </li>
-                                    
-                <li>
-                <a href="../paginas/contacto.html">Contacto</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/ayuda.html">Ayuda </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<nav class="container-fluid p-1">
+    <div>
+        <ul class="nav nav-pills nav-fill bg-secondary mb-3">
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/categorias.html">Categorías</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/ayuda.html">Ayuda</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-<main>
+<main class="container-fluid">
     <section>
-        <div class="banner">
-            <img src="../imagenes/banner_ayuda.jpg" alt="Banner Copra tus libros favoritos">
+        <div class="text-center mb-3">
+            <img src="../imagenes/banner_ayuda.jpg" alt="Banner Compra tus libros favoritos" class="img-fluid">
         </div>
     </section>
 
-    <section class="titulo__principal">
+    <section>
         <div>
-            <h1>Ayuda</h1>
+            <h4>Ayuda</h4>
         </div>
     </section> 
 
 <section>
         <article>
-            <div class="texto__principal">
-                <h1>Atención al Cliente</h1>
+            <div>
+                <h5>Atención al Cliente</h5>
             </div>
-            <div class="texto__novedades">  
+            <div>  
                 <p>En Géminis Tienda de Libros ponemos a tu disposición nuestro Departamento de Servicios al Cliente, donde tus mensajes siempre serán atendidos. Para consultas sobre artículos de nuestra web o cualquier tema relacionado con tus pedidos, podés comunicarte por email a atencionalcliente@geministienda.com.ar. O en nuestras redes sociales.</p>
             </div>
         </article>
 
         <article>
-            <div class="texto__principal">
-                <h1>Comprar en Géminis Tienda de Libros</h1>
+            <div>
+                <h5>Comprar en Géminis Tienda de Libros</h5>
             </div>
-            <div class="texto__novedades">
+            <div>
                 <p>Para realizar compras en nuestra tienda es necesario que cuentes con un usuario ya registrado e ingreses a nuestro sitio con él. Luego de agregar los artículos deseados en el carrito de compras podrás.</p>   
                 <p>Podrás generar la compra de manera rápida y sencilla ingresando los datos de entrega, el método de envío y la forma de pago. Luego, por último, revisar el pedido y finalizarlo recibiendo una confirmación del mismo en tu casilla de correo. Contarás con la posibilidad de consultar tus compras en todo momento en el panel de control de tu cuenta.</p>
             </div>   
         </article>            
             
         <article>
-            <div class="texto__principal">
-                <h1>Medios de Pago y Promociones</h1>
+            <div>
+                <h5>Medios de Pago y Promociones</h5>
             </div>
-            <div class="texto__novedades">
+            <div>
                 <p>Durante el proceso de la compra, te solicitaremos que selecciones una forma de pago entre los disponibles en nuestro sitio: Pagar con tarjeta de crédito o débito. Podrás pagar con todas las tarjetas de crédito y débito. A través de Mobbex, Visa o Mercado Pago.</p>
             </div>
         </article>
 
         <article>
-            <div class="texto__principal">
-                <h1>Plazos y Costos de Envío</h1>
+            <div>
+                <h5>Plazos y Costos de Envío</h5>
             </div>
-            <div class="texto__novedades">
+            <div>
                 <p>Todos nuestros productos cuentan con envío a domicilio a toda la Argentina a través de Correo Andreani, Correo Argentino y Correo Urbano, y al resto del mundo a través de DHL (*). Podrás calcular el costo de envío de todos los correos disponibles ingresando los datos de entrega en el carrito de compra. Los pedidos serán despachados dentro de las 24/48 hs hábiles. Una vez realizado el envío, recibirás un mail de confirmación con los datos para realizar el seguimiento online de la pieza. Luego del despacho los tiempos habituales de entrega en Argentina son los siguientes:</p>
             </div>
         </article>
 
         <article>
-            <div class="texto__principal">
-                <h1>Cambios y Devoluciones</h1>
+            <div>
+                <h5>Cambios y Devoluciones</h5>
             </div>
-            <div class="texto__novedades">
+            <div>
                 <p>Podrás revocar la compra realizada o solicitar cambios, sin responsabilidad alguna, dentro de los 10 días corridos a partir de la recepción del producto adquirido. La revocación de una compra deberás realizarla a través de nuestro Departamento de Servicios al Cliente comunicándote con el número de pedido. De tratarse de una artículo con defectos de fabricación se procederá a realizar el cambio exclusivamente por otro igual en buen estado.</p>
             </div>
         </article>
 
         <article>
-            <div class="texto__principal">
-                <h1>Preguntas Frecuentes</h1>
+            <div>
+                <h5>Preguntas Frecuentes</h5>
             </div>
-            <div class="texto__novedades">
+            <div>
                 <ol>
                     <li> <strong>¿Dónde se aplican los códigos de descuento?</strong> </li> 
                         <p>Si contás con un código de cupón de descuento tenés que aplicarlo en los lugares indicados dentro del carrito de compra en forma previa a comenzar el proceso de compra. Solo podrás aplicar un código de cupón de descuento por compra.</p>
@@ -124,39 +122,33 @@
 </section>
 </main>
 
-<footer id="footer">
+<footer class="p-2 m-1">
     <div>
         <hr size="2px" color="black"/>
     <div>
-
-    <div class="footer__general">
-        <a href="../paginas/categorias.html"><h3>Temáticas</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Contactanos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Ayuda</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Quienes somos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Formas de Pago</h3></a>
-    </div>
-
-    <div class="redes__sociales" class="link">
-        <h3>Redes Sociales</h3>
-        <div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../paginas/categorias.html">Temáticas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/ayuda.html">Ayuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../paginas/ayuda.html">Formas de Pago</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Redes Sociales</a>
             <a href="https://www.facebook.com/"><img src="../imagenes/logos/facebook.png"></a>
             <a href="https://www.instagram.com/"><img src="../imagenes/logos/instagram.png"></a>
-            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>         
-        </div>
-    </div>
+            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>    
+        </li>
+    </ul>
 </footer>
 </body>
 </html>

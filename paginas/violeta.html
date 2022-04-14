@@ -5,110 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Géminis - Tienda de Libros</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
     <link rel="shotcut icon" href="../imagenes/logos/logo.png">
 </head>
 
 <body>
 
-    <header> <a href="../index.html" class="link">
-        <img src="../imagenes/logos/logo_geminis.png" alt="Logo web" class="header__logo">
-            <div class="header__titulo">
-                <h1>Géminis <div>Tienda de Libros</div> </h1>
-            </div>
-    </header>
+<header class="navbar navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes/logos/logo_geminis.png" alt="Géminis Tienda de Libros" class="d-inline-block align-text-buttom ">
+        Géminis Tienda de Libros
+        </a>
+    </div>
+</header>
 
-<section>
-    <nav id="menu">
-        <div>
-            <ul class="nav__menu">
-                <li>
-                <a href="../paginas/categorias.html">Categorías</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/novedades.html">Novedades</a>
-                </li>
-                    
-                <li>
-                <a href="../paginas/blog.html">Blog</a>
-                </li>
-                                    
-                <li>
-                <a href="../paginas/contacto.html">Contacto</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/ayuda.html">Ayuda </a>
-                </li>
-            </ul>
+<nav class="container-fluid p-1">
+    <div>
+        <ul class="nav nav-pills nav-fill bg-secondary mb-3">
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/categorias.html">Categorías</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/ayuda.html">Ayuda</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main class="container-fluid">
+    <section>
+        <div class="text-center mb-3">
+            <img src="../imagenes/banner_1.jpg" alt="Banner Boulevard" class="img-fluid">
         </div>
-    </nav>
-
-<main>
-        <section>
-            <div class="banner">
-                <img src="../imagenes/banner_1.jpg" alt="Banner Boulevard">
-            </div>
-        </section>
+    </section>
 
         <article>
-            <div class="texto__secundario">
-            <p>Violeta - Isabel Allende</p>
-            </div>
-
-            <div class="texto__novedades">
-            <p>Violeta, la primera niña de una familia de cinco bulliciosos hermanos, viene al mundo un tormentoso día de 1920. Desde el principio su vida estará marcada por acontecimientos extraordinarios, pues todavía se sienten las ondas expansivas de la Gran Guerra cuando la gripe española llega a las orillas de su país sudamericano natal, casi en el momento exacto de su nacimiento. Gracias a la clarividencia del padre, la familia saldrá indemne de esta crisis para enfrentarse a una nueva, cuando la Gran Depresión altera la elegante vida urbana que Violeta ha conocido hasta ahora. Lo perderán todo y se verán obligados a retirarse a una región salvaje y remota del país. Allí Violeta alcanzará la mayoría de edad y tendrá su primer pretendiente... En una larga carta dirigida a una persona a la que ama por encima de todas las demás, Violeta rememora devastadores desengaños amorosos y romances apasionados, momentos de pobreza y también de prosperidad, pérdidas terribles e inmensas alegrías. Moldearán su vida algunos de los grandes sucesos de la historia: la lucha por los derechos de la mujer, el auge y la caída de tiranos y, en última instancia, no una sino dos pandemias. Vista con los ojos de una mujer poseedora de una pasión, una determinación y un sentido del humor inolvidables que la sostienen a lo largo de una vida turbulenta, Isabel Allende nos regala, una vez más, una historia épica profundamente inspiradora y emotiva.</p>
-            </div>
-
-            <div class="texto__secundario">
-                <p>Precio: $3.799,00</p>
-            </div>
-
-            <div class="imagenes__lanzamientos">
-            <img src="../imagenes/violeta.png" alt="Violeta" width="10%">
+            <div>
+            <h4>Violeta - Isabel Allende</h4>
             </div>
 
             <div>
-                <input type="submit" value="AGREGAR AL CARRITO">
+            <p>Violeta, la primera niña de una familia de cinco bulliciosos hermanos, viene al mundo un tormentoso día de 1920. Desde el principio su vida estará marcada por acontecimientos extraordinarios, pues todavía se sienten las ondas expansivas de la Gran Guerra cuando la gripe española llega a las orillas de su país sudamericano natal, casi en el momento exacto de su nacimiento. Gracias a la clarividencia del padre, la familia saldrá indemne de esta crisis para enfrentarse a una nueva, cuando la Gran Depresión altera la elegante vida urbana que Violeta ha conocido hasta ahora. Lo perderán todo y se verán obligados a retirarse a una región salvaje y remota del país. Allí Violeta alcanzará la mayoría de edad y tendrá su primer pretendiente... En una larga carta dirigida a una persona a la que ama por encima de todas las demás, Violeta rememora devastadores desengaños amorosos y romances apasionados, momentos de pobreza y también de prosperidad, pérdidas terribles e inmensas alegrías. Moldearán su vida algunos de los grandes sucesos de la historia: la lucha por los derechos de la mujer, el auge y la caída de tiranos y, en última instancia, no una sino dos pandemias. Vista con los ojos de una mujer poseedora de una pasión, una determinación y un sentido del humor inolvidables que la sostienen a lo largo de una vida turbulenta, Isabel Allende nos regala, una vez más, una historia épica profundamente inspiradora y emotiva.</p>
+            </div>
+
+            <div>
+                <p>Precio: $3.799,00</p>
+            </div>
+
+            <div>
+            <img src="../imagenes/violeta.png" alt="Violeta" class="img-fluid">
+            </div>
+<br>
+            <div>
+                <input type="submit" value="AGREGAR AL CARRITO" type="button" class="btn btn-secondary">
             </div> 
 
         </article>
 </main>
 
-<footer id="footer">
+<footer class="p-2 m-1">
     <div>
         <hr size="2px" color="black"/>
     <div>
-
-    <div class="footer__general">
-        <a href="../paginas/categorias.html"><h3>Temáticas</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Contactanos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Ayuda</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Quienes somos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Formas de Pago</h3></a>
-    </div>
-
-    <div class="redes__sociales" class="link">
-        <h3>Redes Sociales</h3>
-        <div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../paginas/categorias.html">Temáticas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/ayuda.html">Ayuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../paginas/ayuda.html">Formas de Pago</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Redes Sociales</a>
             <a href="https://www.facebook.com/"><img src="../imagenes/logos/facebook.png"></a>
             <a href="https://www.instagram.com/"><img src="../imagenes/logos/instagram.png"></a>
-            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>         
-        </div>
-    </div>
+            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>    
+        </li>
+    </ul>
 </footer>
 </body>
 </html>

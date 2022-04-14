@@ -5,110 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Géminis - Tienda de Libros</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
     <link rel="shotcut icon" href="../imagenes/logos/logo.png">
 </head>
 
 <body>
 
-    <header> <a href="../index.html" class="link">
-        <img src="../imagenes/logos/logo_geminis.png" alt="Logo web" class="header__logo">
-            <div class="header__titulo">
-                <h1>Géminis <div>Tienda de Libros</div> </h1>
-            </div>
-    </header>
+<header class="navbar navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes/logos/logo_geminis.png" alt="Géminis Tienda de Libros" class="d-inline-block align-text-buttom ">
+        Géminis Tienda de Libros
+        </a>
+    </div>
+</header>
 
-<section>
-    <nav id="menu">
-        <div>
-            <ul class="nav__menu">
-                <li>
-                <a href="../paginas/categorias.html">Categorías</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/novedades.html">Novedades</a>
-                </li>
-                    
-                <li>
-                <a href="../paginas/blog.html">Blog</a>
-                </li>
-                                    
-                <li>
-                <a href="../paginas/contacto.html">Contacto</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/ayuda.html">Ayuda </a>
-                </li>
-            </ul>
+<nav class="container-fluid p-1">
+    <div>
+        <ul class="nav nav-pills nav-fill bg-secondary mb-3">
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/categorias.html">Categorías</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/ayuda.html">Ayuda</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main class="container-fluid">
+    <section>
+        <div class="text-center mb-3">
+            <img src="../imagenes/banner_1.jpg" alt="Banner Boulevard" class="img-fluid">
         </div>
-    </nav>
-
-<main>
-        <section>
-            <div class="banner">
-                <img src="../imagenes/banner_1.jpg" alt="Banner Boulevard">
-            </div>
-        </section>
+    </section>
 
         <article>
-            <div class="texto__secundario">
-            <p>Como me enamore de Nicolas Cage - Quevedo Carla</p>
-            </div>
-
-            <div class="texto__novedades">
-            <p>Marta es una actriz argentina que vive en New York, es joven, linda y perturbada. Intenta quedar en películas de gran despliegue, pero nunca termina de encajar en los estereotipos de lo que se espera de una latina. Una noche, en una fiesta, conoce a un músico muy famoso y se enamora de él. Pero lo que podría ser el inicio de una historia de amor es en cambio el inicio de una historia rabiosa y fracturada, minada de desencuentros. Sensible, graciosa e hiperlúcida, la protagonista se sumerge dentro de una fantasía densa en la que intentará desentrañar de qué está hecho el enamoramiento, y cuánto se puede encontrar y perder en ese hallazgo. Con una prosa notable, Carla Quevedo consigue en esta primera novela combinar de forma profunda el humor y la sordidez, y sin buscarlo, retratar la complejidad (y a veces la tragedia) de las relaciones humanas. «Una gema que merece ser descubierta. Por momentos hilarante, obscena, siempre aguda; una lectura provocadora que hace reflexionar. La escritura de Quevedo nos recuerda que la lucha por alcanzar el éxito es más divertida que el éxito en sí. íEstos son personajes con los que saldría a tomar una copa!». Albert Hammond Jr. (The Strokes) «Una piña en la cara del amor romántico». Flor Monfort</p>
-            </div>
-
-            <div class="texto__secundario">
-                <p>Precio: $2.499,00</p>
-            </div>
-
-            <div class="imagenes__lanzamientos">
-            <img src="../imagenes/me_enamore.png" alt="Como me enamore de Nicolas Cage" width="10%">
+            <div>
+            <h4>Como me enamore de Nicolas Cage - Quevedo Carla</h4>
             </div>
 
             <div>
-                <input type="submit" value="AGREGAR AL CARRITO">
+            <p>Marta es una actriz argentina que vive en New York, es joven, linda y perturbada. Intenta quedar en películas de gran despliegue, pero nunca termina de encajar en los estereotipos de lo que se espera de una latina. Una noche, en una fiesta, conoce a un músico muy famoso y se enamora de él. Pero lo que podría ser el inicio de una historia de amor es en cambio el inicio de una historia rabiosa y fracturada, minada de desencuentros. Sensible, graciosa e hiperlúcida, la protagonista se sumerge dentro de una fantasía densa en la que intentará desentrañar de qué está hecho el enamoramiento, y cuánto se puede encontrar y perder en ese hallazgo. Con una prosa notable, Carla Quevedo consigue en esta primera novela combinar de forma profunda el humor y la sordidez, y sin buscarlo, retratar la complejidad (y a veces la tragedia) de las relaciones humanas. «Una gema que merece ser descubierta. Por momentos hilarante, obscena, siempre aguda; una lectura provocadora que hace reflexionar. La escritura de Quevedo nos recuerda que la lucha por alcanzar el éxito es más divertida que el éxito en sí. íEstos son personajes con los que saldría a tomar una copa!». Albert Hammond Jr. (The Strokes) «Una piña en la cara del amor romántico». Flor Monfort</p>
+            </div>
+
+            <div>
+                <p>Precio: $2.499,00</p>
+            </div>
+
+            <div>
+            <img src="../imagenes/me_enamore.png" alt="Como me enamore de Nicolas Cage" class="img-fluid">
+            </div>
+<br>
+            <div>
+                <input type="submit" value="AGREGAR AL CARRITO" type="button" class="btn btn-secondary">
             </div>       
 
         </article>
 </main>
 
-<footer id="footer">
+<footer class="p-2 m-1">
     <div>
         <hr size="2px" color="black"/>
     <div>
-
-    <div class="footer__general">
-        <a href="../paginas/categorias.html"><h3>Temáticas</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Contactanos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Ayuda</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Quienes somos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Formas de Pago</h3></a>
-    </div>
-
-    <div class="redes__sociales" class="link">
-        <h3>Redes Sociales</h3>
-        <div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../paginas/categorias.html">Temáticas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/ayuda.html">Ayuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../paginas/ayuda.html">Formas de Pago</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Redes Sociales</a>
             <a href="https://www.facebook.com/"><img src="../imagenes/logos/facebook.png"></a>
             <a href="https://www.instagram.com/"><img src="../imagenes/logos/instagram.png"></a>
-            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>         
-        </div>
-    </div>
+            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>    
+        </li>
+    </ul>
 </footer>
 </body>
 </html>

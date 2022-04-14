@@ -5,68 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Géminis - Tienda de Libros</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
     <link rel="shotcut icon" href="../imagenes/logos/logo.png">
 </head>
 <body>
     
-    <header> <a href="../index.html" class="link">
-        <img src="../imagenes/logos/logo_geminis.png" alt="Logo web" class="header__logo">
-            <div class="header__titulo">
-                <h1>Géminis <div>Tienda de Libros</div> </h1>
-            </div>
+    <header class="navbar navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../imagenes/logos/logo_geminis.png" alt="Géminis Tienda de Libros" class="d-inline-block align-text-buttom ">
+            Géminis Tienda de Libros
+          </a>
+        </div>
     </header>
 
-<section>
-    <nav id="menu">
+    <nav class="container-fluid p-1">
         <div>
-            <ul class="nav__menu">
-                <li>
-                <a href="../paginas/categorias.html">Categorías</a>
+            <ul class="nav nav-pills nav-fill bg-secondary mb-3">
+                <li class="nav-item">
+                    <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/categorias.html">Categorías</a>
                 </li>
-                        
-                <li>
-                <a href="../paginas/novedades.html">Novedades</a>
+                <li class="nav-item">
+                    <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/novedades.html">Novedades</a>
                 </li>
-                    
-                <li>
-                <a href="../paginas/blog.html">Blog</a>
+                <li class="nav-item">
+                    <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/blog.html">Blog</a>
                 </li>
-                                    
-                <li>
-                <a href="../paginas/contacto.html">Contacto</a>
+                <li class="nav-item">
+                    <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/contacto.html">Contacto</a>
                 </li>
-                        
-                <li>
-                <a href="../paginas/ayuda.html">Ayuda </a>
+                <li class="nav-item">
+                    <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/ayuda.html">Ayuda</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-<main>
+<main class="container-fluid">
     <section>
-        <div class="banner">
-            <img src="../imagenes/banner_index.png" alt="Banner wattpad">
+        <div class="text-center mb-3">
+            <img src="../imagenes/banner_index.png" alt="Banner Exitos Wattpad" class="img-fluid">
         </div>
     </section>
 
     <section>
-        <article class="titulo__principal">
+        <article>
             <div>
-                <h1>Entrevista</h1>
+                <h4>Entrevista</h4>
             </div>
         </article>
         
         <article>
-            <div class="texto__secundario">
-                <h1>Isabel Allende</h1>
+            <div>
+                <h2>Isabel Allende</h2>
             </div>
-            <div class="texto__novedades">
+            <div>
                 <p>Fecha: 16 de agosto de 2021</p>
                 <p>Fuente: Bárbara Schijman (Página 12)</p>
             </div>
-            <div class="texto__novedades">
+            <div>
                 <ol>
                     <li> <strong>Mujeres del alma mía está inspirado en algunas mujeres que han sido fundamentales en su vida. ¿Qué ha hecho que estas mujeres fueran “extraordinarias” para usted?</strong> </li> 
                         <p>Las considero extraordinarias por quienes son o quienes fueron, pero también y sobre todo, por la relación que hemos tenido. Les debo todo lo que yo soy a algunas mujeres excepcionales, o no excepcionales, que estuvieron conmigo. Siempre digo que no habría podido hacer nada en la vida si no fuera por mi madre, por Paula, por mi abuela, que se murió cuando yo era muy joven pero dejó un tremendo legado, por mi nuera, por las mujeres que me ayudaron a ser periodista cuando yo no sabía ni siquiera escribir dos frases, como mi agente, Carmen Balcells, y por muchas otras mujeres que conozco a través de mi fundación. Yo diría que hay muy pocos hombres que cumplieron ese papel en mi vida. Mi abuelo cuando yo era chica, mi padrastro, que sin ninguna duda fue el reemplazante de mi padre, lo hizo mucho mejor que cualquier padre, y mi hijo Nicolás. Y no menciono a los maridos, a los amantes ni a los amigos porque ninguno, ni los colegas tampoco, me ayudaron como las mujeres. Por eso siento una gran solidaridad femenina. Me da rabia cuando me hablan de la rivalidad entre mujeres, porque eso es lo que el patriarcado ha hecho más visible, pero esa no es la verdad. Las mujeres son muy solidarias entre ellas.</p>
@@ -87,42 +85,35 @@
                 </ol>
             </div>
         </article>
-    </section>
 </main>
 
-<footer id="footer">
+<footer class="p-2 m-1">
     <div>
         <hr size="2px" color="black"/>
     <div>
-
-    <div class="footer__general">
-        <a href="../paginas/categorias.html"><h3>Temáticas</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Contactanos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Ayuda</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Quienes somos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Formas de Pago</h3></a>
-    </div>
-
-    <div class="redes__sociales" class="link">
-        <h3>Redes Sociales</h3>
-        <div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../paginas/categorias.html">Temáticas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/ayuda.html">Ayuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../paginas/ayuda.html">Formas de Pago</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Redes Sociales</a>
             <a href="https://www.facebook.com/"><img src="../imagenes/logos/facebook.png"></a>
             <a href="https://www.instagram.com/"><img src="../imagenes/logos/instagram.png"></a>
-            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>         
-        </div>
-    </div>
+            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>    
+        </li>
+    </ul>
 </footer>
 </body>
 </html>

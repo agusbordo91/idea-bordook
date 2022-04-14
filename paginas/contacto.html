@@ -5,88 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Géminis - Tienda de Libros</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
     <link rel="shotcut icon" href="../imagenes/logos/logo.png">
 </head>
 
 <body>
     
-<header> <a href="../index.html" class="link">
-    <img src="../imagenes/logos/logo_geminis.png" alt="Logo web" class="header__logo">
-        <div class="header__titulo">
-            <h1>Géminis <div>Tienda de Libros</div> </h1>
-        </div>
+<header class="navbar navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes/logos/logo_geminis.png" alt="Géminis Tienda de Libros" class="d-inline-block align-text-buttom ">
+        Géminis Tienda de Libros
+        </a>
+    </div>
 </header>
 
-<section>
-    <nav id="menu">
-        <div>
-            <ul class="nav__menu">
-                <li>
-                <a href="../paginas/categorias.html">Categorías</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/novedades.html">Novedades</a>
-                </li>
-                    
-                <li>
-                <a href="../paginas/blog.html">Blog</a>
-                </li>
-                                    
-                <li>
-                <a href="../paginas/contacto.html">Contacto</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/ayuda.html">Ayuda </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<nav class="container-fluid p-1">
+    <div>
+        <ul class="nav nav-pills nav-fill bg-secondary mb-3">
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/categorias.html">Categorías</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/ayuda.html">Ayuda</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-<main>
+<main class="container-fluid">
     <section>
-        <div class="banner">
-            <img src="../imagenes/banner_contacto.jpg" alt="Banner Llena tu biblioteca">
+        <div class="text-center mb-3">
+            <img src="../imagenes/banner_contacto.jpg" alt="Banner Llena tu biblioteca" class="img-fluid">
         </div>
     </section>
 
     <section>
         <article>
-            <div class="titulo__principal">
+            <div>
                 <h1>Formulario de Contacto</h1>
             </div>
 
-            <div class="texto__principal">
-                <p>¿No encontraste lo que buscabas en Preguntas frecuentes?</p>
+            <div>
+                <p>¿No encontraste lo que buscabas en Preguntas frecuentes? Escribinos tu consulta:</p>
             </div>
         </article>
         
-        <article id="formulario">
+        <article>
             <div>
             <form action="gracias.html" method="get">
                     Nombre: <input name="Nombre" type="text" placeholder="Escribe tu nombre aquí." required/> <br></br>
                     Apellido: <input name="Apellido" type="text" placeholder="Escribe tu apellido aquí." required/> <br></br>
                     Seleccioná el género: <br></br>
-                        <input type="radio" name="Sexo" value="Hombre" required>Hombre
-                        <input type="radio" name="Sexo" value="Mujer"required>Mujer
-                        <input type="radio" name="Sexo" value="Otro"required>Otro <br></br>
+                        <input type="radio" name="Sexo" value="Hombre" required> Hombre
+                        <input type="radio" name="Sexo" value="Mujer"required> Mujer
+                        <input type="radio" name="Sexo" value="Otro"required> Otro <br></br>
                     Email: <input name="email" type="email" placeholder="Escribe tu email aquí." required/> <br></br>
                     Teléfono: <input name="Teléfono" type="number" placeholder="Escribe tu teléfono aquí."required/>
                     <p>*Ingresar el código de área sin 0, y si es celular sin el 15 (Ejemplo: 1162655689)</p>
-                    Consulta: <select name="Consulta" type="text"required>
-                        <option value="Consulta">Seleccioná tu consulta</option>
-                        <option value="Necesito ayuda con mi pedido">Necesito ayuda con mi pedido</option>
-                        <option value="Necesito ayuda para realizar un pedido">Necesito ayuda para realizar un pedido</option>
-                        <option value="Necesito información sobre un libro">Necesito información sobre un libro</option>
-                        <option value="Me arrepentí de mi compra">Me arrepentí de mi compra</option>
-                        <option value="Tengo una consulta sobre mi cuenta">Tengo una consulta sobre mi cuenta</option>
-                        <option value="Tengo dudas sobre la factura de mi pedido">Tengo dudas sobre la factura de mi pedido</option>
-                        <option value="Otras consultas...">Otras consultas...</option>
-                        </select>
+                    Consulta: <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option selected>Seleccioná tu consulta</option>
+                        <option value="1">Necesito ayuda con mi pedido</option>
+                        <option value="2">Necesito ayuda para realizar un pedido</option>
+                        <option value="3">Necesito información sobre un libro</option>
+                        <option value="4">Me arrepentí de mi compra</option>
+                        <option value="5">Tengo una consulta sobre mi cuenta</option>
+                        <option value="6">Tengo dudas sobre la factura de mi pedido</option>
+                        <option value="7">Otras consultas...</option>
+                      </select>
                         <br></br>
-                    Mensaje: <textarea name="Mensaje" type="text" id="Mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje aquí."required></textarea>
+                    Mensaje: <textarea name="Mensaje" type="text" id="Mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje aquí."required></textarea>
             </div>
 
             <div>
@@ -94,8 +92,8 @@
             </div>     
                 
             <div>
-                <input type="submit" value="ENVIAR">
-                <input type="reset" value="Limpiar">
+                <input type="submit" value="ENVIAR" type="button" class="btn btn-success">
+                <input type="reset" value="Limpiar" type="button" class="btn btn-secondary">
             </div>
             </form>
         </article>
@@ -103,18 +101,18 @@
 
     <section>
         <article>
-            <div class="texto__principal">
+            <div>
                 <p>Otras formas de contactarte con nosotros</p>
             </div>
 
-            <div class="texto__novedades">
-                <h1>Atención al cliente: atencionalcliente@geministienda.com.ar</h1>
+            <div>
+                <h6>Atención al cliente: atencionalcliente@geministienda.com.ar</h6>
             </div>
         </article>
 
         <article>
-            <div class="texto__novedades">
-                <h1>Redes sociales:</h1>
+            <div>
+                <h6>Redes sociales:</h6>
             </div>
 
             <div>
@@ -126,39 +124,33 @@
     </section>
 </main>
 
-<footer id="footer">
+<footer class="p-2 m-1">
     <div>
         <hr size="2px" color="black"/>
     <div>
-
-    <div class="footer__general">
-        <a href="../paginas/categorias.html"><h3>Temáticas</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Contactanos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Ayuda</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Quienes somos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Formas de Pago</h3></a>
-    </div>
-
-    <div class="redes__sociales" class="link">
-        <h3>Redes Sociales</h3>
-        <div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../paginas/categorias.html">Temáticas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/ayuda.html">Ayuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../paginas/ayuda.html">Formas de Pago</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Redes Sociales</a>
             <a href="https://www.facebook.com/"><img src="../imagenes/logos/facebook.png"></a>
             <a href="https://www.instagram.com/"><img src="../imagenes/logos/instagram.png"></a>
-            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>         
-        </div>
-    </div>
+            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>    
+        </li>
+    </ul>
 </footer>
 </body>
 </html>

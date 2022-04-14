@@ -5,142 +5,163 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Géminis - Tienda de Libros</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="/js/bootstrap.min.js"></script>
     <link rel="shotcut icon" href="imagenes/logos/logo.png">
 </head>
 
 <body>
 
-    <header> <a href="../raiz/index.html" class="link">
-        <img src="imagenes/logos/logo_geminis.png" alt="Logo web" class="header__logo">
-            <div class="header__titulo">
-                <h1>Géminis <div>Tienda de Libros</div> </h1>
-            </div>
-    </header>
+    <header class="navbar navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../raiz/index.html">
+            <img src="imagenes/logos/logo_geminis.png" alt="Géminis Tienda de Libros" class="d-inline-block align-text-buttom ">
+            Géminis Tienda de Libros
+          </a>
+        </div>
+      </header>
 
-<section>
-    <nav id="menu">
+    <nav class="container-fluid p-1">
         <div>
-            <ul class="nav__menu">
-                <li>
-                <a href="paginas/categorias.html">Categorías</a>
+            <ul class="nav nav-pills nav-fill bg-secondary mb-3">
+                <li class="nav-item">
+                  <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="paginas/categorias.html">Categorías</a>
                 </li>
-                    
-                <li>
-                <a href="paginas/novedades.html">Novedades</a>
+                <li class="nav-item">
+                  <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="paginas/novedades.html">Novedades</a>
                 </li>
-                
-                <li>
-                <a href="paginas/blog.html">Blog</a>
+                <li class="nav-item">
+                  <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="paginas/blog.html">Blog</a>
                 </li>
-                                
-                <li>
-                <a href="paginas/contacto.html">Contacto</a>
+                <li class="nav-item">
+                  <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="paginas/contacto.html">Contacto</a>
                 </li>
-                    
-                <li>
-                <a href="paginas/ayuda.html">Ayuda </a>
-                </li>
-            </ul>
+                <li class="nav-item">
+                    <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="paginas/ayuda.html">Ayuda</a>
+                  </li>
+              </ul>
         </div>
     </nav>
 
-<main>
+<main class="container-fluid">
         <section>
-            <div class="banner">
-                <img src="imagenes/banner_1.jpg" alt="Banner Boulevard">
+            <div class="text-center mb-3">
+                <img src="imagenes/banner_1.jpg" alt="Banner Boulevard" class="img-fluid">
             </div>
         </section>
 
-        <article>
-            <div class="titulo__principal">
-                <h1>Tu nueva librería online</h1>
+        <article class="row">
+            <div class="col-md-3 text-center">
+                <h2>Tu nueva librería online</h2>
             </div>
-            <div class="texto__principal">
-                <p>¡Somos Géminis! Un lugar donde vas a poder encontrar todas las novedades del mundo de la literatura sin moverte de tu casa. Tenemos novedades todas las semanas y promociones que no te podés perder. También tenemos convenios con diferentes editoriales por lo que vas a encontrar todos los títulos que necesites en un solo lugar. Estrenamos nuestro Blog, donde vas a poder intercambiar tu opinión con diferentes personas, publicar reseñas de tus libros favoritos y ¡mucho más!</p>
-            </div>
-        </article>
 
-        <article>
-            <div class="titulo__principal">
-                <h1>Novedades</h1>
-            </div> 
-            <div class="imagenes__novedades">
-                <img src="imagenes/al_final_mueren.png" alt="Al final mueren los dos" class="transformacion">
-                <img src="imagenes/destino_celeste.png" alt="Destino Celeste" class="transformacion">
-                <img src="imagenes/dos_amores.png" alt="Los dos amores de mi vida" class="transformacion">
-                <img src="imagenes/maridos.png" alt="Los siete maridos" class="transformacion">
-                <img src="imagenes/mas_lindo.png" alt="El libro mas lindo del mundo" class="transformacion">
+            <div class="col-md-9">
+                <p class="text-justify">¡Somos Géminis! Un lugar donde vas a poder encontrar todas las novedades del mundo de la literatura sin moverte de tu casa. Tenemos novedades todas las semanas y promociones que no te podés perder. También tenemos convenios con diferentes editoriales por lo que vas a encontrar todos los títulos que necesites en un solo lugar. Estrenamos nuestro Blog, donde vas a poder intercambiar tu opinión con diferentes personas, publicar reseñas de tus libros favoritos y ¡mucho más!</p>
             </div>
         </article>
 
+        <article>
+            <div>
+                <h4>Novedades</h4>
+            </div>
+
+            <div class="text-center">
+                <img src="imagenes/al_final_mueren.png" alt="Al final mueren los dos" class="img-fluid m-1 rounded">
+                <img src="imagenes/destino_celeste.png" alt="Destino Celeste" class="img-fluid m-1 rounded">
+                <img src="imagenes/dos_amores.png" alt="Los dos amores de mi vida"class="img-fluid m-1 rounded">
+                <img src="imagenes/maridos.png" alt="Los siete maridos" class="img-fluid m-1 rounded">
+                <img src="imagenes/mas_lindo.png" alt="El libro mas lindo del mundo" class="img-fluid m-1 rounded">
+                <img src="imagenes/nombre_cosas.png" alt="Ella y su gato" class="img-fluid m-1 rounded">
+                <img src="imagenes/violeta.png" alt="Violeta" class="img-fluid m-1 rounded">
+                <img src="imagenes/nosotros.png" alt="Ella y su gato" class="img-fluid m-1 rounded">
+                <img src="imagenes/neuromante.png" alt="Ella y su gato" class="img-fluid m-1 rounded">
+                <img src="imagenes/tia.png" alt="Ella y su gato" class="img-fluid m-1 rounded">
+            </div>
+        </article>
+
     <article>
-        <div class="titulo__principal">
-            <h1>Promociones Bancarias</h1>
+        <div>
+            <h4>Promociones Bancarias</h4>
         </div>
-        <div class="banner">
-            <img src="imagenes/banner-cuotas.jpg" alt="Promociones Bancarias">
+        <div class="text-center">
+            <img src="imagenes/banner-cuotas.jpg" alt="Promociones Bancarias" class="img-fluid">
         </div>
     </article>
 
     <article>
-        <div class="titulo__principal">
-            <h1>Top 5 de ventas abril</h1>
+        <div>
+            <h4>Top 5 de ventas abril</h4>
         </div>
-        <div class="top__ventas">
-            <ol>
-                <li>El hechizo del agua. <p>Florencia Bonelli.</p></li>
-                <li>Soy una tonta por quererte. <p>Camila Sosa Villada.</p></li>
-                <li>La última vez. <p>Guillermo Martínez.</p></li>
-                <li>El Libro Negro de las Horas. <p>Eva García Sáenz de Urturi.</p></li>
-                <li>Las primas. <p>Aurora Venturini.</p></li>
-            </ol>
-        </div>
+
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">El hechizo del agua.</div>
+                Florencia Bonelli.
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Soy una tonta por quererte.</div>
+                Camila Sosa Villada.
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">La última vez.</div>
+                Guillermo Martínez.
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">El Libro Negro de las Horas.</div>
+                  Eva García Sáenz de Urturi.
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Las primas.</div>
+                  Aurora Venturini.
+                </div>
+            </li>
+          </ol>
     </article>
 
     <article>
-        <div class="imagenes__novedades">
-            <img src="imagenes/ENVIO_GRATIS.jpg" alt="Envio Gratis" class="banner">
-            <img src="imagenes/ENVIO_EXPRESS.jpg" alt="Envio Express" class="banner">
+        <div class="text-center">
+            <img src="imagenes/ENVIO_GRATIS.jpg" alt="Envio Gratis" class="img-fluid">
+            <img src="imagenes/ENVIO_EXPRESS.jpg" alt="Envio Express" class="img-fluid">
         </div>
     </article>
-
 </main>
-</section>
 
-<footer id="footer">
+<footer class="p-2 m-1">
     <div>
         <hr size="2px" color="black"/>
     <div>
-
-    <div class="footer__general">
-        <a href="paginas/categorias.html"><h3>Temáticas</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="paginas/contacto.html"><h3>Contactanos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="paginas/ayuda.html"><h3>Ayuda</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="paginas/contacto.html"><h3>Quienes somos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="paginas/ayuda.html"><h3>Formas de Pago</h3></a>
-    </div>
-
-    <div class="redes__sociales" class="link">
-        <h3>Redes Sociales</h3>
-        <div>
-            <a href="https://www.facebook.com/"><img src="../raiz/imagenes/logos/facebook.png"></a>
-            <a href="https://www.instagram.com/"><img src="../raiz/imagenes/logos/instagram.png"></a>
-            <a href="https://twitter.com/"><img src="../raiz/imagenes/logos/twitter.png"></a>         
-        </div>
-    </div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="paginas/categorias.html">Temáticas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="paginas/contacto.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="paginas/ayuda.html">Ayuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="paginas/contacto.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="paginas/ayuda.html">Formas de Pago</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="paginas/ayuda.html">Redes Sociales</a>
+            <a href="https://www.facebook.com/"><img src="imagenes/logos/facebook.png"></a>
+            <a href="https://www.instagram.com/"><img src="imagenes/logos/instagram.png"></a>
+            <a href="https://twitter.com/"><img src="imagenes/logos/twitter.png"></a>    
+        </li>
+    </ul>
 </footer>
 </body>
 </html>

@@ -5,110 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Géminis - Tienda de Libros</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
     <link rel="shotcut icon" href="../imagenes/logos/logo.png">
 </head>
 
 <body>
 
-    <header> <a href="../index.html" class="link">
-        <img src="../imagenes/logos/logo_geminis.png" alt="Logo web" class="header__logo">
-            <div class="header__titulo">
-                <h1>Géminis <div>Tienda de Libros</div> </h1>
-            </div>
-    </header>
+<header class="navbar navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes/logos/logo_geminis.png" alt="Géminis Tienda de Libros" class="d-inline-block align-text-buttom ">
+        Géminis Tienda de Libros
+        </a>
+    </div>
+</header>
 
-<section>
-    <nav id="menu">
-        <div>
-            <ul class="nav__menu">
-                <li>
-                <a href="../paginas/categorias.html">Categorías</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/novedades.html">Novedades</a>
-                </li>
-                    
-                <li>
-                <a href="../paginas/blog.html">Blog</a>
-                </li>
-                                    
-                <li>
-                <a href="../paginas/contacto.html">Contacto</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/ayuda.html">Ayuda </a>
-                </li>
-            </ul>
+<nav class="container-fluid p-1">
+    <div>
+        <ul class="nav nav-pills nav-fill bg-secondary mb-3">
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/categorias.html">Categorías</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/ayuda.html">Ayuda</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main class="container-fluid">
+    <section>
+        <div class="text-center mb-3">
+            <img src="../imagenes/banner_1.jpg" alt="Banner Boulevard" class="img-fluid">
         </div>
-    </nav>
-
-<main>
-        <section>
-            <div class="banner">
-                <img src="../imagenes/banner_1.jpg" alt="Banner Boulevard">
-            </div>
-        </section>
+    </section>
 
         <article>
-            <div class="texto__secundario">
-            <p>Los siete maridos de Evelyn Hugo - Taylor Jenkins Reid</p>
-            </div>
-
-            <div class="texto__novedades">
-            <p>Evelyn Hugo; el ícono de Hollywood que se ha recluido en su edad madura; decide al fin contar la verdad sobre su vida llena de glamour y de escándalos. Pero cuando elige para ello a Monique Grant; una periodista desconocida; nadie se sorprende más que la misma Monique. ¿Por qué ella? ¿Por qué ahora? Monique no está precisamente en su mejor momento. Su marido la abandonó; y su vida profesional no avanza. Aun ignorando por qué Evelyn la ha elegido para escribir su biografía; Monique está decidida a aprovechar esa oportunidad para dar impulso a su carrera. Convocada al lujoso apartamento de Evelyn; Monique escucha fascinada mientras la actriz le cuenta su historia. Desde su llegada a Los Ángeles en los años 50 hasta su decisión de abandonar su carrera en el espectáculo en los 80 ¿y; desde luego; los siete maridos que tuvo en ese tiempo¿ Evelyn narra una historia de ambición implacable; amistad inesperada; y un gran amor prohibido. Monique empieza a sentir una conexión muy real con la actriz legendaria; pero cuando el relato de Evelyn se acerca a su fin; resulta evidente que su vida se cruza con la de Monique de un modo trágico e irreversible.</p>
-            </div>
-
-            <div class="texto__secundario">
-                <p>Precio: $2.690,00</p>
-            </div>
-
-            <div class="imagenes__lanzamientos">
-            <img src="../imagenes/maridos.png" alt="Los siete maridos" width="10%">
+            <div>
+            <h4>Los siete maridos de Evelyn Hugo - Taylor Jenkins Reid</h4>
             </div>
 
             <div>
-                <input type="submit" value="AGREGAR AL CARRITO">
+            <p>Evelyn Hugo; el ícono de Hollywood que se ha recluido en su edad madura; decide al fin contar la verdad sobre su vida llena de glamour y de escándalos. Pero cuando elige para ello a Monique Grant; una periodista desconocida; nadie se sorprende más que la misma Monique. ¿Por qué ella? ¿Por qué ahora? Monique no está precisamente en su mejor momento. Su marido la abandonó; y su vida profesional no avanza. Aun ignorando por qué Evelyn la ha elegido para escribir su biografía; Monique está decidida a aprovechar esa oportunidad para dar impulso a su carrera. Convocada al lujoso apartamento de Evelyn; Monique escucha fascinada mientras la actriz le cuenta su historia. Desde su llegada a Los Ángeles en los años 50 hasta su decisión de abandonar su carrera en el espectáculo en los 80 ¿y; desde luego; los siete maridos que tuvo en ese tiempo¿ Evelyn narra una historia de ambición implacable; amistad inesperada; y un gran amor prohibido. Monique empieza a sentir una conexión muy real con la actriz legendaria; pero cuando el relato de Evelyn se acerca a su fin; resulta evidente que su vida se cruza con la de Monique de un modo trágico e irreversible.</p>
+            </div>
+
+            <div>
+                <p>Precio: $2.690,00</p>
+            </div>
+
+            <div>
+            <img src="../imagenes/maridos.png" alt="Los siete maridos" class="img-fluid">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="AGREGAR AL CARRITO" type="button" class="btn btn-secondary">
             </div>       
 
         </article>
 </main>
 
-<footer id="footer">
+<footer class="p-2 m-1">
     <div>
         <hr size="2px" color="black"/>
     <div>
-
-    <div class="footer__general">
-        <a href="../paginas/categorias.html"><h3>Temáticas</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Contactanos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Ayuda</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Quienes somos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Formas de Pago</h3></a>
-    </div>
-
-    <div class="redes__sociales" class="link">
-        <h3>Redes Sociales</h3>
-        <div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../paginas/categorias.html">Temáticas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/ayuda.html">Ayuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../paginas/ayuda.html">Formas de Pago</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Redes Sociales</a>
             <a href="https://www.facebook.com/"><img src="../imagenes/logos/facebook.png"></a>
             <a href="https://www.instagram.com/"><img src="../imagenes/logos/instagram.png"></a>
-            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>         
-        </div>
-    </div>
+            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>    
+        </li>
+    </ul>
 </footer>
 </body>
 </html>

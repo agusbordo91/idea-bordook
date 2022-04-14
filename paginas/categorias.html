@@ -5,123 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Géminis - Tienda de Libros</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
     <link rel="shotcut icon" href="../imagenes/logos/logo.png">
 </head>
 
 <body>
     
-    <header> <a href="../index.html" class="link">
-        <img src="../imagenes/logos/logo_geminis.png" alt="Logo web" class="header__logo">
-            <div class="header__titulo">
-                <h1>Géminis <div>Tienda de Libros</div> </h1>
-            </div>
-    </header>
+<header class="navbar navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+        <img src="../imagenes/logos/logo_geminis.png" alt="Géminis Tienda de Libros" class="d-inline-block align-text-buttom ">
+        Géminis Tienda de Libros
+        </a>
+    </div>
+</header>
 
-<section>
-    <nav id="menu">
-        <div>
-            <ul class="nav__menu">
-                <li>
-                <a href="../paginas/categorias.html">Categorías</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/novedades.html">Novedades</a>
-                </li>
-                    
-                <li>
-                <a href="../paginas/blog.html">Blog</a>
-                </li>
-                                    
-                <li>
-                <a href="../paginas/contacto.html">Contacto</a>
-                </li>
-                        
-                <li>
-                <a href="../paginas/ayuda.html">Ayuda </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<nav class="container-fluid p-1">
+    <div>
+        <ul class="nav nav-pills nav-fill bg-secondary mb-3">
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/categorias.html">Categorías</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a type="button" class="btn btn-secondary" class="nav-link disabled active m-1" aria-current="page" href="../paginas/ayuda.html">Ayuda</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-<main>
-    <article>
-        <div class="banner">
-            <img src="../imagenes/banner_categoria.jpg" alt="Banner Literatura Juvenil">
+<main class="container-fluid">
+    <section>
+        <div class="text-center mb-3">
+            <img src="../imagenes/banner_categoria.jpg" alt="Banner Literatura Juvenil" class="img-fluid">
         </div>
-    </article>
+    </section>
 
     <section>
-        <article class="titulo__principal">
+        <article>
             <div>
-                <h1>Ficción y Literatura</h1>
+                <h4>Ficción y Literatura</h4>
             </div>
         </article>   
         
-    <article class="imagenes__categorias">
-        <div>
-            <a href="../paginas/violeta.html"><img src="../imagenes/violeta.png" alt="Violeta"></a>
-            <a href="../paginas/siete_maridos.html"><img src="../imagenes/maridos.png" alt="Los siete maridos"></a>
-            <a href="../paginas/tonta.html"><img src="../imagenes/tonta.png" alt="Soy una tonta"></a>
-            <a href="../paginas/mas_lindo.html"><img src="../imagenes/mas_lindo.png" alt="El libro mas lindo"></a>
-            <a href="../paginas/amores.html"><img src="../imagenes/dos_amores.png" alt="Los dos amores de mi vida"></a>
+    <article>
+        <div class="text-center">
+            <a href="../paginas/violeta.html"><img src="../imagenes/violeta.png" alt="Violeta" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/siete_maridos.html"><img src="../imagenes/maridos.png" alt="Los siete maridos" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/tonta.html"><img src="../imagenes/tonta.png" alt="Soy una tonta" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/mas_lindo.html"><img src="../imagenes/mas_lindo.png" alt="El libro mas lindo" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/amores.html"><img src="../imagenes/dos_amores.png" alt="Los dos amores de mi vida" class="img-fluid m-1 rounded"></a>
         </div>
 
-        <div>
-            <a href="../paginas/nevar.html"><img src="../imagenes/dia.png" alt="El dia que dejo"></a>
-            <a href="../paginas/tia_cosima.html"><img src="../imagenes/tia.png" alt="La tia cosima"></a>
-            <a href="../paginas/nosotros_luna.html"><img src="../imagenes/nosotros.png" alt="Nosotros en la luna"></a>
-            <a href="../paginas/enamore.html"><img src="../imagenes/me_enamore.png" alt="Como me enamore"></a>
-            <a href="../paginas/neuromante.html"><img src="../imagenes/neuromante.png" alt="Neuromante"></a>
+        <div class="text-center">
+            <a href="../paginas/nevar.html"><img src="../imagenes/dia.png" alt="El dia que dejo" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/tia_cosima.html"><img src="../imagenes/tia.png" alt="La tia cosima" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/nosotros_luna.html"><img src="../imagenes/nosotros.png" alt="Nosotros en la luna" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/enamore.html"><img src="../imagenes/me_enamore.png" alt="Como me enamore" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/neuromante.html"><img src="../imagenes/neuromante.png" alt="Neuromante" class="img-fluid m-1 rounded"></a>
         </div>  
 
-        <div>
-            <a href="../paginas/mueren.html"><img src="../imagenes/al_final_mueren.png" alt="Al final mueren los dos"></a>
-            <a href="../paginas/destino.html"><img src="../imagenes/destino_celeste.png" alt="Destino Celeste"></a>
-            <a href="../paginas/fuego.html"><img src="../imagenes/trilogia_fuego.png" alt="Trilogia fuego"></a>
-            <a href="../paginas/ella_gato.html"><img src="../imagenes/nombre_cosas.png" alt="Ella y su gato"></a>
-            <a href="../paginas/estrellas.html"><img src="../imagenes/hacia_las_estrellas.png" alt="Hacia las estrellas"></a>
+        <div class="text-center">
+            <a href="../paginas/mueren.html"><img src="../imagenes/al_final_mueren.png" alt="Al final mueren los dos" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/destino.html"><img src="../imagenes/destino_celeste.png" alt="Destino Celeste" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/fuego.html"><img src="../imagenes/trilogia_fuego.png" alt="Trilogia fuego" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/ella_gato.html"><img src="../imagenes/nombre_cosas.png" alt="Ella y su gato" class="img-fluid m-1 rounded"></a>
+            <a href="../paginas/estrellas.html"><img src="../imagenes/hacia_las_estrellas.png" alt="Hacia las estrellas" class="img-fluid m-1 rounded"></a>
         </div>
     </article>
     </section>
 </main>
-</section>
 
-<footer id="footer">
+<footer class="p-2 m-1">
     <div>
         <hr size="2px" color="black"/>
     <div>
-
-    <div class="footer__general">
-        <a href="../paginas/categorias.html"><h3>Temáticas</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Contactanos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Ayuda</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/contacto.html"><h3>Quienes somos</h3></a>
-    </div>
-
-    <div class="footer__general">
-        <a href="../paginas/ayuda.html"><h3>Formas de Pago</h3></a>
-    </div>
-
-    <div class="redes__sociales" class="link">
-        <h3>Redes Sociales</h3>
-        <div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../paginas/categorias.html">Temáticas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/ayuda.html">Ayuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../paginas/contacto.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../paginas/ayuda.html">Formas de Pago</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Redes Sociales</a>
             <a href="https://www.facebook.com/"><img src="../imagenes/logos/facebook.png"></a>
             <a href="https://www.instagram.com/"><img src="../imagenes/logos/instagram.png"></a>
-            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>         
-        </div>
-    </div>
-
+            <a href="https://twitter.com/"><img src="../imagenes/logos/twitter.png"></a>    
+        </li>
+    </ul>
 </footer>
 </body>
 </html>
