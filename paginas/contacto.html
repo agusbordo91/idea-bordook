@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Géminis - Tienda de Libros</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <script src="../js/bootstrap.min.js"></script>
     <link rel="shotcut icon" href="../imagenes/logos/logo.png">
 </head>
 
@@ -53,18 +51,18 @@
     <section>
         <article>
             <div>
-                <h1>Formulario de Contacto</h1>
+                <h4>Formulario de Contacto</h4>
             </div>
 
             <div>
-                <p>¿No encontraste lo que buscabas en Preguntas frecuentes? Escribinos tu consulta:</p>
+                <p><em>¿No encontraste lo que buscabas en Preguntas Frecuentes? Escribinos tu consulta:</p></em>
             </div>
         </article>
         
         <article>
-            <div>
+            <div class="p-3">
             <form action="gracias.html" method="get">
-                    Nombre: <input name="Nombre" type="text" placeholder="Escribe tu nombre aquí." required/> <br></br>
+                    <small>Nombre: <input name="Nombre" type="text" placeholder="Escribe tu nombre aquí." required/> <br></br>
                     Apellido: <input name="Apellido" type="text" placeholder="Escribe tu apellido aquí." required/> <br></br>
                     Seleccioná el género: <br></br>
                         <input type="radio" name="Sexo" value="Hombre" required> Hombre
@@ -72,7 +70,7 @@
                         <input type="radio" name="Sexo" value="Otro"required> Otro <br></br>
                     Email: <input name="email" type="email" placeholder="Escribe tu email aquí." required/> <br></br>
                     Teléfono: <input name="Teléfono" type="number" placeholder="Escribe tu teléfono aquí."required/>
-                    <p>*Ingresar el código de área sin 0, y si es celular sin el 15 (Ejemplo: 1162655689)</p>
+                    <p><strong>*Ingresar el código de área sin 0, y si es celular sin el 15 (Ejemplo: 1162655689)</p></strong>
                     Consulta: <select class="form-select form-select-sm" aria-label=".form-select-sm example">
                         <option selected>Seleccioná tu consulta</option>
                         <option value="1">Necesito ayuda con mi pedido</option>
@@ -86,9 +84,9 @@
                         <br></br>
                     Mensaje: <textarea name="Mensaje" type="text" id="Mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje aquí."required></textarea>
             </div>
-
-            <div>
-                <p><input type="checkbox" name="Acepta" value="1" required/> Aceptar terminos y condiciones.</p>
+                    </small>
+            <div class="p-3">
+                <p><u><input type="checkbox" name="Acepta" value="1" required/> Aceptar terminos y condiciones.</p></u>
             </div>     
                 
             <div>
@@ -99,7 +97,7 @@
         </article>
     </section>
 
-    <section>
+    <section class="p-3">
         <article>
             <div>
                 <p>Otras formas de contactarte con nosotros</p>
@@ -152,5 +150,7 @@
         </li>
     </ul>
 </footer>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
