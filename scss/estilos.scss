@@ -1,0 +1,8 @@
+.transformacion {
+	transform: translate(10px);
+	height: 100px;
+	transition: height 2s;
+	&:hover {
+		height: 300px;
+	}
+}
