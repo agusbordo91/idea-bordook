@@ -6,3 +6,100 @@
 		height: 300px;
 	}
 }
+
+$libros:(hechizo:#C2ECFF, tonta:#778DA9, ultima:#E0E1DD, negro:#E8EEEC, primas:#AFD3C7);
+$colores:(color1:#333333, color2:#666666, color3:#999999, color4:white, color5:grey);
+$colores_fuente:(blanco:white, negro:black);
+$colores_fondo:(negro:black, blanco:white);
+$tamano:(valor1:360px, valor2:480px, valor3:600px);
+
+@each $clave, $valor in $libros {
+    .btn-#{$clave} {
+        background-color:$valor;
+    }
+}
+
+@each $clave2, $valor2 in $colores {
+    .#{$clave2} {
+        background-color:$valor2;
+    }
+}
+
+@each $a, $b in $colores_fuente {
+    .fuente_#{$a} {
+        color:$b;
+    }
+}
+
+@each $a, $b in $colores_fondo {
+    .fondo_#{$a} {
+        background-color:$b;
+        border:1px solid black;
+    }
+}
+
+@each $clave, $valor in $tamano {
+    .#{$clave} {
+        background-color: #333333;
+        width: $valor;
+    }
+}
+
+$estilos: (
+    color: #778DA9,
+    ubicacion: center,
+);
+
+.estilo4 {
+    color: map-get($estilos, color);
+    text-align: map-get($estilos, ubicacion);
+}
+
+.titulo {
+    background-color: #E8EEEC;
+	padding: 10px;
+}
+
+.titulo--nuevo {
+    @extend .titulo;
+	margin: 10px;
+	width: 25%;
+	text-align: center;
+
+}
+
+.titulo1, .titulo2 {
+    color: #22333B;
+    background-color: #8E3B46;
+    text-align: center;
+}
+
+@mixin sizes($width, $height, $text-align) {
+    width: $width;
+    height: $height;
+	text-align: $text-align;
+}
+
+@mixin sizes2($width, $height, $tamano_fuente, $color_fuente, $color_fondo) {
+    width: $width;
+    height: $height;
+    font-size: $tamano_fuente;
+    color: $color_fuente;
+    background-color: $color_fondo;
+}
+
+.espacio {
+    @extend .titulo1;
+	padding: 10px;
+}
+
+.box {
+    @extend .espacio;
+    @include sizes(200px, 90px, center);
+}
+
+.box2 {
+    @include sizes2(200px, 80px, 22px, #778DA9, #E0E1DD);
+    background-color: #E8EEEC;
+	text-align: center;
+}

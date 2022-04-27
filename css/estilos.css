@@ -4,3 +4,94 @@
   transition: height 2s; }
   .transformacion:hover {
     height: 300px; }
+
+.btn-hechizo {
+  background-color: #C2ECFF; }
+
+.btn-tonta {
+  background-color: #778DA9; }
+
+.btn-ultima {
+  background-color: #E0E1DD; }
+
+.btn-negro {
+  background-color: #E8EEEC; }
+
+.btn-primas {
+  background-color: #AFD3C7; }
+
+.color1 {
+  background-color: #333333; }
+
+.color2 {
+  background-color: #666666; }
+
+.color3 {
+  background-color: #999999; }
+
+.color4 {
+  background-color: white; }
+
+.color5 {
+  background-color: grey; }
+
+.fuente_blanco {
+  color: white; }
+
+.fuente_negro {
+  color: black; }
+
+.fondo_negro {
+  background-color: black;
+  border: 1px solid black; }
+
+.fondo_blanco {
+  background-color: white;
+  border: 1px solid black; }
+
+.valor1 {
+  background-color: #333333;
+  width: 360px; }
+
+.valor2 {
+  background-color: #333333;
+  width: 480px; }
+
+.valor3 {
+  background-color: #333333;
+  width: 600px; }
+
+.estilo4 {
+  color: #778DA9;
+  text-align: center; }
+
+.titulo, .titulo--nuevo {
+  background-color: #E8EEEC;
+  padding: 10px; }
+
+.titulo--nuevo {
+  margin: 10px;
+  width: 25%;
+  text-align: center; }
+
+.titulo1, .espacio, .box, .titulo2 {
+  color: #22333B;
+  background-color: #8E3B46;
+  text-align: center; }
+
+.espacio, .box {
+  padding: 10px; }
+
+.box {
+  width: 200px;
+  height: 90px;
+  text-align: center; }
+
+.box2 {
+  width: 200px;
+  height: 80px;
+  font-size: 22px;
+  color: #778DA9;
+  background-color: #E0E1DD;
+  background-color: #E8EEEC;
+  text-align: center; }
