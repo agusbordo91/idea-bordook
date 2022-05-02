@@ -7,7 +7,7 @@
 	}
 }
 
-$libros:(hechizo:#C2ECFF, tonta:#778DA9, ultima:#E0E1DD, negro:#E8EEEC, primas:#AFD3C7);
+$libros:(hechizo:#778DA9, tonta:#9BABC0, ultima:#DAE0E7, negro:#E6EAEF, primas:#F3F5F7);
 $colores:(color1:#333333, color2:#666666, color3:#999999, color4:white, color5:grey);
 $colores_fuente:(blanco:white, negro:black);
 $colores_fondo:(negro:black, blanco:white);
@@ -62,8 +62,8 @@ $estilos: (
 
 .titulo--nuevo {
     @extend .titulo;
-	margin: 10px;
-	width: 25%;
+	margin: 50px;
+	width: 70%;
 	text-align: center;
 
 }
@@ -99,7 +99,7 @@ $estilos: (
 }
 
 .box2 {
-    @include sizes2(200px, 80px, 22px, #778DA9, #E0E1DD);
+    @include sizes2(300px, 80px, 30px, #000000, #E0E1DD);
     background-color: #E8EEEC;
 	text-align: center;
 }
