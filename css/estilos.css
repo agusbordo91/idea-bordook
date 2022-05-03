@@ -67,11 +67,11 @@
 
 .titulo, .titulo--nuevo {
   background-color: #E8EEEC;
-  padding: 10px; }
+  padding: 5px; }
 
 .titulo--nuevo {
-  margin: 50px;
-  width: 70%;
+  margin: 10px;
+  width: 100%;
   text-align: center; }
 
 .titulo1, .espacio, .box, .titulo2 {
